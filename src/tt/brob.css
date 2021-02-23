@@ -1,0 +1,412 @@
+.bg__ts{
+    background-color: rgb(255, 255, 255);
+    /* width: 350px;
+    height: 500px; */
+    /* padding: 40px; */
+    /* overflow: auto; */
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+
+
+
+    /*==================*/
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+    height: 500px;
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.blog__content{
+    margin-left: 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.text__block-blog{
+    width: 377px;
+    height: 400px;
+}
+
+/* @media(max-width: 767px){
+    .bd{
+        margin: 0 auto;
+    }
+    .bg__ts{
+        margin: 0 auto;
+    }
+} */
+.text__block-blog p{
+    font-size: 20px;
+    margin: 40px 40px 20px 0px;
+}
+.text__block-blog h1{
+    padding-top: 40px;
+    padding-right: 68px;
+    font-size: 70px;
+    font-weight: 900;
+    color: darkgrey;
+}
+
+
+@media screen and (max-width: 1124px){
+    .bg__ts {
+    margin-right: 0px;
+    }
+    /* .blog__content {
+        margin-left: 0px; 
+    } */
+    .bl__largus-cnopcka{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 860px){
+    .blog__content{
+        display:flex;
+        flex-direction:column;
+     }   
+     .text__block-blog{
+        margin: auto;
+     }
+     .bg__ts {
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .bl__largus-cnopck{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 667px){
+ /* .blog__content{
+    display:flex;
+    flex-direction:column;
+ }    */
+ .bl__largus-cnopcka{
+    margin: auto;
+}
+ .text__block-blog{
+    margin: auto;
+ }
+ .bg__ts{
+    width: 300px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+ }
+ .blog__content {
+    margin: 10px;
+ }
+ .text__block-blog h1 {
+    padding-top: 20px;
+    padding-right: 80px;
+    font-size: 45px;
+    font-weight: 800;
+    color: darkgrey;
+    margin: 0px 0px 0px 20px;
+}
+.text__block-blog p {
+    font-size: 19px;
+    margin: 40px 20px 0px 20px;
+}
+.text__block-blog {
+    width: 302px;
+    height: 350px;
+}
+.content {
+    padding: 50px 0px 0px 0px;
+}
+.menu__id1{
+    position: relative;
+    top: -26px;
+    left: -30px;
+}
+}
+
+/*====================блок с кнопкой и ларгусов=====================*/
+.bl__largus-cnopck{
+    margin-top: 50px;
+    height: 400px;
+}
+/*==========перенос стилей блок заявки==============*/
+.sing {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttom {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.block__title {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+
+}
+
+
+.buttom__title {
+    text-align: center;
+    margin: 0px;
+    width: 300px;
+
+}
+
+/*   кнопки  */
+.posit__ost-zia{
+        top: 10px;
+        background-color: gold;
+        position: relative;
+        left: 84px;
+        border-radius: 10px;
+}
+.form__input,
+.form__buttom{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.form__title{
+    font-size: 26px;
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal;
+}
+
+.form__group{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form__label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    color: #9e9e9e;
+    transition: 0.3s;
+}
+
+.form__input{
+    width: 100%;
+    padding: 0 0 3px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+.form__input:focus{
+    border-bottom: 1px solid #1a73a8;
+}
+
+.form__buttom{
+    margin-top: 0px;
+    padding: 10px 20px;
+    border: none;
+    color: #000000;
+    background-color: #FFF740;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.form__buttom:focus,
+.form__buttom:hover{
+    background-color: (0, 113, 240, 0.7);
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+    top: -18px;
+    font-size: 12px;
+    color: #e0e0e0;
+}
+/*    боковая панель   */
+.status{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 564px;
+    background-color: bisque;
+}
+
+/*    стиль завки 5 минут     */
+.info__red{
+    position: relative;
+    bottom: 16px;
+}
+
+/*    подвал    */
+.footer {
+    margin-top: auto;
+}
+
+.footer__box_element {
+
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+/*   Скрипт СПЛЫВАЮЩИЙ подсказки   */
+.body{
+    display: flex;
+    justify-content: flex-end;
+   /* align-items: center;*/
+    height: 0px;
+    font-family: sans-serif;
+}
+
+
+.tooltip{
+    position: relative;
+    cursor: pointer;
+}
+.tooltip:hover .tooltip__element{
+    filter: brightness(1.5);
+}
+.tooltip:hover .tooltip__info{
+    display: block;
+}
+
+.tooltip__element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 30%;
+    color: #fff;
+    background-color: #B8B8B8;
+}
+
+
+.tooltip__info{
+    display: none;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    background-color: #e2dddd/*#000*/;
+    z-index: 1;
+    font-family: cursive;
+    height: 64px;
+    width: 200px;
+}
+.tooltip__info::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+}
+.tooltip__info{
+    content: '';
+    position: absolute;
+    border: 0 solid transparent;
+}
+.tooltip__right .tooltip__info{
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 100%;
+    margin-left: 5px;
+}
+
+.tooltip__right .tooltip__info::after{
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 100%;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000; 
+}
+
+
+
+.menu__id1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+/* position: relative;
+top: -26px;
+left: -61px; */
+font-size: 18px;
+font-family: sans-serif;
+/* border: 0px solid; */
+right: 62px;
+color: #9a9a9a;
+}
+option{
+    color: black;
+    background-color: orange;
+}
+select:active{
+    
+    color: black;
+}
+
+
+/* select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+} */
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+
+    outline: none;
+
+        /* position: relative; */
+    /* padding: 5px;
+    padding-right: 40px; */
+    
+    
+    }
+    select:after{
+      content: "";
+      display: block;
+      width: 70px;
+
+
+      /* width: 25px;
+      height: 25px; */
+      /* background-image: url("/put_k_strelke"); */
+
+
+      /* position: absolute;
+      right: 5px;
+      top: 5px; */
+    }
+
+/*  */
+
+/*=================================*/
+
+
+.blog__content.active{
+    display: none;
+}

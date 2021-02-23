@@ -1,0 +1,21 @@
+/* .menu__mouse:hover{
+   content: '';
+   display: none;
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: black;
+   width: 200px;
+   height: 200px;
+}
+
+.menu__mouse:hover{
+    content: '';
+    display:inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+ } */
